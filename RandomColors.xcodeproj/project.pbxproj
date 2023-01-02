@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		07DDDF3B2962E49000020D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDDF3A2962E49000020D3D /* AppDelegate.swift */; };
 		07DDDF3D2962E49000020D3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDDF3C2962E49000020D3D /* SceneDelegate.swift */; };
-		07DDDF3F2962E49000020D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDDF3E2962E49000020D3D /* ViewController.swift */; };
 		07DDDF422962E49000020D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DDDF402962E49000020D3D /* Main.storyboard */; };
 		07DDDF442962E49100020D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DDDF432962E49100020D3D /* Assets.xcassets */; };
 		07DDDF472962E49100020D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DDDF452962E49100020D3D /* LaunchScreen.storyboard */; };
+		07DDDF522962E74B00020D3D /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDDF512962E74B00020D3D /* ColorsTableVC.swift */; };
+		07DDDF552962F03B00020D3D /* ColorsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDDF542962F03B00020D3D /* ColorsDetailsVC.swift */; };
+		07DDDF5A2963890300020D3D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DDDF592963890300020D3D /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07DDDF372962E49000020D3D /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DDDF3A2962E49000020D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07DDDF3C2962E49000020D3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07DDDF3E2962E49000020D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07DDDF412962E49000020D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07DDDF432962E49100020D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07DDDF462962E49100020D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DDDF482962E49100020D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DDDF512962E74B00020D3D /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		07DDDF542962F03B00020D3D /* ColorsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailsVC.swift; sourceTree = "<group>"; };
+		07DDDF592963890300020D3D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				07DDDF3A2962E49000020D3D /* AppDelegate.swift */,
 				07DDDF3C2962E49000020D3D /* SceneDelegate.swift */,
-				07DDDF3E2962E49000020D3D /* ViewController.swift */,
+				07DDDF512962E74B00020D3D /* ColorsTableVC.swift */,
+				07DDDF542962F03B00020D3D /* ColorsDetailsVC.swift */,
+				07DDDF592963890300020D3D /* UIColor+Ext.swift */,
 				07DDDF402962E49000020D3D /* Main.storyboard */,
 				07DDDF432962E49100020D3D /* Assets.xcassets */,
 				07DDDF452962E49100020D3D /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DDDF3F2962E49000020D3D /* ViewController.swift in Sources */,
+				07DDDF522962E74B00020D3D /* ColorsTableVC.swift in Sources */,
+				07DDDF552962F03B00020D3D /* ColorsDetailsVC.swift in Sources */,
+				07DDDF5A2963890300020D3D /* UIColor+Ext.swift in Sources */,
 				07DDDF3B2962E49000020D3D /* AppDelegate.swift in Sources */,
 				07DDDF3D2962E49000020D3D /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
